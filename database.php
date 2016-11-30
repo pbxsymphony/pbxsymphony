@@ -1,4 +1,4 @@
 <?php
-mysql_connect("localhost", "root", "p4ssw0rd");
+mysql_connect("localhost", "root", "password");
 mysql_select_db("asteriskrealtime"); 
 ?>
