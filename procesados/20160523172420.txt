@@ -1,0 +1,2 @@
+Channel,Callerid,MaxRetries,RetryTime,WaitTime,Context,Extension
+local/10@from-sip,56226123456,2,60,30,from-sip,56912345678
