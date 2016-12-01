@@ -11,7 +11,7 @@
 <body>
 
 	<?php
-	include 'head_menu-agent.php'; 
+	include 'head_menu.php'; 
 	?>
     
     <div class="container-fluid">
