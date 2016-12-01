@@ -1,9 +1,6 @@
 <?php
 session_start();
 if (isset($_SESSION['k_user'])) { /* echo 'user:'.$_SESSION["k_username"]; */} else { echo '<SCRIPT LANGUAGE="javascript">location.href = "logout.php" </SCRIPT>'; } 
-
-include("queue_show.php");
-
 ?>
 <!DOCTYPE html>
 
