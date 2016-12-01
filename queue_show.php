@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['k_username'])) { /* echo 'user:'.$_SESSION["k_username"]; */} else { echo '<SCRIPT LANGUAGE="javascript">location.href = "logout.php" </SCRIPT>'; } 
+if (isset($_SESSION['k_username']) OR isset($_SESSION['k_user'])) { /* echo 'user:'.$_SESSION["k_username"]; */} else { echo '<SCRIPT LANGUAGE="javascript">location.href = "logout.php" </SCRIPT>'; } 
 ?>
                   
 <!DOCTYPE html>
